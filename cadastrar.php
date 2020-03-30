@@ -19,6 +19,7 @@
 		<input type="password" name="senha" placeholder="Senha" maxlength="15">
 		<input type="password" name="confSenha" placeholder="Confirmar Senha" maxlength="15">
 		<input type="submit" value="Cadastrar">
+		<a href="sair.php"><strong>VOLTAR</strong></a>
 	</form>
 </div>
 <?php

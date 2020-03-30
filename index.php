@@ -17,7 +17,7 @@ $u = new Usuario();
 		<input type="email" placeholder="Usuário" name="email">
 		<input type="password" placeholder="Senha" name="senha">
 		<input type="submit" value="ACESSAR">
-		<a href="cadastrar.php">Ainda não é inscrito?<strong>Cadastre-se!</strong></a>
+		<a href="cadastrar.php">Ainda não é inscrito?<strong> Cadastre-se!</strong></a>
 	</form>
 </div>
 <?php
