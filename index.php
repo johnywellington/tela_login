@@ -28,7 +28,7 @@ if(isset($_POST['email']))
 	
 	if(!empty($email) && !empty($senha))
 	{
-		$u->conectar("tela_login","localhost","root","1234");
+		$u->conectar("tela_login","http://127.0.0.1/","root","1234");
 		if($u->msgErro == "")
 		{
 			if($u->logar($email,$senha))
